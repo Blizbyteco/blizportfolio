@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="py-6 px-12 bg-white w-full">
         <div className="flex justify-end w-full">
           <h2 className="text-lg text-gray-700">
-            Turn's your dreams from bliz to byte
+            The solution for your needs
           </h2>
         </div>
 
