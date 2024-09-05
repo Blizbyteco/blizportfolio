@@ -7,8 +7,8 @@ export default function Navbar() {
         <img src="/logo.png" alt="logo" className="size-12"/>
 
         <div className="flex gap-x-8">
-          <p>Products</p>
-          <p>Contacts</p>
+          <button>Products</button>
+          <button>Contacts</button>
         </div>
       </div>
     </div>
