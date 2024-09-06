@@ -1,9 +1,15 @@
+import { motion } from 'framer-motion'
 import React from 'react'
 
-export default function Teams() {
+export default function Teams({y}) {
   return (
-    <div className='h-[150dvh] px-12 py-36'>
-        <h1 className='text-6xl font-semibold sticky top-0'>Meet our experts</h1>
+    <motion.div 
+    className='px-12 py-36'
+    style={{
+        y: y
+    }}
+    >
+        <h1 className='text-6xl font-semibold'>Meet our experts</h1>
         <div className='grid grid-cols-3 w-full py-20 px-12'>
             {/* cards */}
             <div className=' w-[350px] h-[400px] bg-[url("http://localhost:5173/profile.jpg")] bg-center bg-cover grayscale group'>
@@ -30,6 +36,6 @@ export default function Teams() {
             </div>
             {/* end cards */}
         </div>
-    </div>
+    </motion.div>
   )
 }

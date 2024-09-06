@@ -2,7 +2,9 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className="text-black min-h-screen w-full">
+    <div 
+    className="text-black min-h-screen w-full"
+    >
       <div className="py-6 px-12 bg-white w-full">
         <div className="flex justify-end w-full">
           <h2 className="text-lg text-gray-700">
