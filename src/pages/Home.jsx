@@ -10,9 +10,8 @@ export default function Home() {
     animate: {
       y: 0,
       transition: {
-        ease: easeIn,
-        duration: 0.5,
-        type: "tween"
+        type: "inertia",
+        velocity: 100 
       },
     },
   };
@@ -34,7 +33,7 @@ export default function Home() {
           transition={{ staggerChildren: 0.03, ease: easeIn }}
           className=" font-primary font-medium text-white text-4xl md:text-6xl overflow-hidden flex py-1  items-center"
         >
-          {"Make your dream app".split("").map((word, index) => (
+          {"Turn your dream app".split("").map((word, index) => (
             <motion.h2 variants={textAnimations} key={index}>{word == " " ? "\u00A0" : word}</motion.h2>
           ))}
         </motion.div>

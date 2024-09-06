@@ -1,21 +1,21 @@
 import { useMotionValueEvent, useScroll } from "framer-motion";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
-  const [bgColor, setBgColor] = useState("transparent")
+  const [isScrolling, setIsScrolling] = useState(false)
   const { scrollY } = useScroll()
 
   useMotionValueEvent(scrollY, "change", (y) => {
     if (y > 50) {
-      setBgColor("white")
+      setIsScrolling(true)
     }else {
-      setBgColor("transparent")
+      setIsScrolling(false)
     }
   })
 
   return (
-    <div className={`fixed z-50 flex gap-x-12 bg-${bgColor} ${bgColor == "white" ? "text-black" : "text-white"} w-full items-center p-6 transition-colors duration-100 ease-in`}>
+    <div className={`fixed z-50 flex gap-x-12 bg-white ${isScrolling ? "bg-opacity-100 text-black" : "bg-opacity-0 text-white"} w-full items-center p-6 transition-colors duration-200 ease-in`}>
       <div className="flex items-center gap-x-20">
         <img src="/logo.png" alt="logo" className="size-12"/>
 
