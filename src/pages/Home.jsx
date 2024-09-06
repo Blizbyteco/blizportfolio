@@ -26,12 +26,6 @@ export default function Home() {
       <div className="absolute left-0 top-0 size-full bg-black bg-opacity-75 text-6xl text-white flex items-end"></div>
       {/* end backdrop */}
 
-      <div className="absolute right-8 top-[20%] z-10 text-white">
-        <p className="text-sm md:text-base max-w-sm md:max-w-lg text-right">
-        Our company creates high-performance web and Android apps, delivering reliable UI/UX designs and tailored solutions using the latest technology.
-        </p>
-      </div>
-
       <div className="absolute bottom-[20%] left-8 z-10">
         <motion.div
           initial="initial"
@@ -58,8 +52,32 @@ export default function Home() {
 
     {/* content */}
 
-    <div className="min-h-screen w-full">
-        <h2>Jel;</h2>
+    <div className="min-h-screen w-full p-6 text-2xl">
+      <div className="flex justify-between items-start w-full">
+        <h2 className="max-w-sm">Blizbyteco is changing local market to make sure they know the benefits of using websites</h2>
+        <h2 className="max-w-3xl text-right">Our company creates high-performance web and Android apps, delivering reliable UI/UX designs and tailored solutions using the latest technology.</h2>
+      </div>
+
+      <div className="flex mt-32 items-center gap-x-8 overflow-auto">
+        {/* content */}
+          <div className="rounded-md max-w-[300px] shrink-0">
+            <img className="object-fill size-full" src="https://img.freepik.com/free-vector/people-riding-scooter-using-navigation-app-city-map-mobile-phone-tracking-vector-illustration-mobile-app-template_74855-12439.jpg?t=st=1725617680~exp=1725621280~hmac=21f8d1923a018cf300abc3e24e740d1a539ffa2e84f190dae1a0d28236fa4c1e&w=900" alt="images" />
+          </div>
+          <div className="rounded-md max-w-[300px] shrink-0">
+            <img className="object-fill size-full" src="https://img.freepik.com/free-vector/people-riding-scooter-using-navigation-app-city-map-mobile-phone-tracking-vector-illustration-mobile-app-template_74855-12439.jpg?t=st=1725617680~exp=1725621280~hmac=21f8d1923a018cf300abc3e24e740d1a539ffa2e84f190dae1a0d28236fa4c1e&w=900" alt="images" />
+          </div>
+          <div className="rounded-md max-w-[300px] shrink-0">
+            <img className="object-fill size-full" src="https://img.freepik.com/free-vector/people-riding-scooter-using-navigation-app-city-map-mobile-phone-tracking-vector-illustration-mobile-app-template_74855-12439.jpg?t=st=1725617680~exp=1725621280~hmac=21f8d1923a018cf300abc3e24e740d1a539ffa2e84f190dae1a0d28236fa4c1e&w=900" alt="images" />
+          </div>
+          <div className="rounded-md max-w-[300px] shrink-0">
+            <img className="object-fill size-full" src="https://img.freepik.com/free-vector/people-riding-scooter-using-navigation-app-city-map-mobile-phone-tracking-vector-illustration-mobile-app-template_74855-12439.jpg?t=st=1725617680~exp=1725621280~hmac=21f8d1923a018cf300abc3e24e740d1a539ffa2e84f190dae1a0d28236fa4c1e&w=900" alt="images" />
+          </div>
+          <div className="rounded-md max-w-[300px] shrink-0">
+            <img className="object-fill size-full" src="https://img.freepik.com/free-vector/people-riding-scooter-using-navigation-app-city-map-mobile-phone-tracking-vector-illustration-mobile-app-template_74855-12439.jpg?t=st=1725617680~exp=1725621280~hmac=21f8d1923a018cf300abc3e24e740d1a539ffa2e84f190dae1a0d28236fa4c1e&w=900" alt="images" />
+          </div>
+         
+        {/* end content */}
+      </div>
     </div>
     </>
   );
