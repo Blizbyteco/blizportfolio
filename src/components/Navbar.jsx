@@ -32,7 +32,9 @@ export default function Navbar() {
         <div className="flex gap-x-12">
           <Link className="relative group" to="/" >
             <p className="mb-1">Home</p>
-            <div className={`absolute bottom-0 left-0 h-[2px]  text-black mix-blend-difference w-0 group-hover:w-full transition-all duration-200 ease-in`}></div>
+            <div className={`absolute bottom-0 left-0 h-[2px] ${isScrolling
+               ? 'bg-black' : 'bg-white'
+            } w-0 group-hover:w-full transition-all duration-200 ease-in`}></div>
           </Link>
           <Link className="relative group" to="/company" >
             <p className="mb-1">Company</p>

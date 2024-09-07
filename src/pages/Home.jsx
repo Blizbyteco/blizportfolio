@@ -102,17 +102,19 @@ export default function Home() {
           <div className="min-h-screen items-center w-full px-6">
             <div className="flex justify-between items-center shrink-0 flex-1 w-full h-full">
               <h3 className="text-2xl font-primary font-normal max-w-md">
-                Share your products to the world with a website
+                Tell your products to the world trough our technology
               </h3>
           
-              <ZoomImage imageURL="https://img.freepik.com/free-photo/homepage-seen-computer-screen_23-2149416730.jpg" />
+              <div className={`bg-[url('https://img.freepik.com/free-photo/senior-investor-buying-startup-handshaking-young-entrepreneur-group-meeting_1163-4888.jpg?t=st=1725703325~exp=1725706925~hmac=5c993359bef8627c5b51982219e91305644282cf7f376f762ae6a4b77e3d8fb4&w=2000')] bg-fixed bg-no-repeat bg-cover bg-center w-1/2 h-screen relative before:absolute before:content-[''] before:bg-opacity-25 before:left-0 before:top-0 before:w-full before:h-full before:bg-black -z-10 before:z-20 bg-slate-500`}
+    ></div>
             </div>
             <div className="flex justify-between items-center shrink-0 flex-1 w-full h-full">
               <h3 className="text-2xl font-primary font-normal max-w-md">
-                We use latest technology, to make sure your website is in high
+                We use latest technology, to make your website is in high
                 performance
               </h3>
-              <ZoomImage imageURL="https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149051555.jpg?t=st=1725686022~exp=1725689622~hmac=ca0e2a73c530cffed71cb101391a892dddc133feaced18885b94a700080c3319&w=2000" />
+              <div className={`bg-[url('https://img.freepik.com/free-photo/manager-showing-african-clientannual-financial-report-wearing-face-mask-against-covid19_482257-2041.jpg?t=st=1725703564~exp=1725707164~hmac=cbd4f4fdb5ea083d8228ae0aabfe2e821b371409c1490ea0b8f2fd3f6189f25b&w=2000')] bg-fixed bg-no-repeat bg-cover bg-center w-1/2 h-screen relative before:absolute before:content-[''] before:bg-opacity-25 before:left-0 before:top-0 before:w-full before:h-full before:bg-black -z-10 before:z-20 bg-slate-500`}
+    ></div>
             </div>
           </div>
         </div>
