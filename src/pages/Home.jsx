@@ -1,6 +1,5 @@
 import { easeIn, motion } from "framer-motion";
 import React from "react";
-import ZoomImage from "../components/ZoomImage";
 
 export default function Home() {
 
