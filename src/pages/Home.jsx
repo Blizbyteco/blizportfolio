@@ -23,7 +23,7 @@ export default function Home() {
       scale: 2
     },
 
-    aniamte: {
+    animate: {
       scale: 1
     }
   }
