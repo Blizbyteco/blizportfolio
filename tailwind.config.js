@@ -10,7 +10,7 @@ export default {
         "primary" : "Montserrat, sans-serif"
       },
       backgroundImage: {
-        "banner" : "url(https://img.freepik.com/free-photo/multiracial-group-young-creative-people-smart-casual-wear-discussing-business-shaking-hands-together-smiling-while-standing-modern-office-partner-cooperation-coworker-teamwork-concept_7861-2742.jpg?t=st=1725501354~exp=1725504954~hmac=aada044d5a9e510e689279a323383e331b6af518857a8aa4b26c3d3fb7278d7c&w=2000)"
+        "banner" : "url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%)"
       }
     },
   },
