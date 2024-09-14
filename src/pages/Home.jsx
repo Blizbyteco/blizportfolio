@@ -46,7 +46,7 @@ export default function Home() {
             className=" font-primary font-medium text-white text-4xl md:text-6xl overflow-hidden flex py-1 items-center"
           >
             {"Turn your dream app".split("").map((word, index) => (
-              <motion.h2 variants={textAnimations} key={index}>
+              <motion.h2 className="font-primary" variants={textAnimations} key={index}>
                 {word == " " ? "\u00A0" : word}
               </motion.h2>
             ))}
@@ -57,7 +57,7 @@ export default function Home() {
             transition={{
               staggerChildren: 0.03,
               ease: easeIn,
-              delayChildren: 0,
+              delayChildren: 0.4,
             }}
             className="font-primary font-medium text-white text-4xl md:text-6xl overflow-hidden flex mt-1 md:mt-4 py-1 items-center"
           >
@@ -117,6 +117,14 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="min-h-screen w-full bg-white py-36 px-16">
+            <h2 className="font-medium text-6xl">Talk with our experts</h2>
+            <div className="flex gap-x-4">
+              <input type="text" className="py-6 px-4 w-1/2 border-2 border-black rounded-md outline-none mt-12 text-xl"   />
+              <button className="w-[300px] bg-black text-white rounded-md">Send Email</button>
+            </div>
       </div>
     </>
   );
